@@ -1,16 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-
-
 import { AgmCoreModule } from '@agm/core';
-
-
-
 import { AppComponent } from './app.component';
-
 
 @NgModule({
   declarations: [
@@ -21,7 +14,7 @@ import { AppComponent } from './app.component';
     CommonModule,
     FormsModule,
     AgmCoreModule.forRoot({
-      apiKey: 'YOUR_KEY'
+      apiKey: 'AIzaSyBeZibcTnS9iCJcCzMOqkDUaQA_odyOKX0paL'
     })
   ],
   providers: [],
